@@ -1,6 +1,6 @@
 # The FROM will be replaced when building in OpenShift
 # FROM centos
-FROM centos7/centos
+FROM centos
 
 
 MAINTAINER Siamak Sadeghianfar <ssadeghi@redhat.com>
