@@ -2,7 +2,6 @@
 # FROM centos
 FROM centos
 
-
 MAINTAINER Siamak Sadeghianfar <ssadeghi@redhat.com>
 
 # Install headless Java
