@@ -52,7 +52,7 @@ parameters:
   displayName: Image Name
   name: IMAGE_NAME
   required: true
-  value: rhel7/rhel
+  value: centos7/centos
 - description: Label for slave pods which are used by Jenkins to discover slave pods and assign jobs to them
   displayName: Jenkins Slave Label
   name: SLAVE_LABEL
@@ -61,7 +61,7 @@ parameters:
 - description: Git repository with Dockerfile and slave entrypoint.
   displayName: Repository URL
   name: SLAVE_REPO_URL
-  value: https://github.com/siamaksade/jenkins-s2i-example.git
+  value: https://github.com/martincsumner/jenkinsdockerci.git
 - description: The sub-directory inside the repository.
   displayName: Context Directory
   name: SLAVE_REPO_CONTEXTDIR

@@ -1,5 +1,5 @@
 # The FROM will be replaced when building in OpenShift
-# FROM rhel7/rhel
+# FROM centos
 FROM centos7/centos
 
 
